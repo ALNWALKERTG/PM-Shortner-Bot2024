@@ -207,7 +207,6 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 ⚙️ sɪᴢᴇ : {file_size}"""
 
     IMDB_TEMPLATE_TXT = """
-<b>🎟Requested Movie/Series: {query}
 🎬 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
