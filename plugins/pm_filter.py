@@ -2284,7 +2284,7 @@ async def auto_filter(client, msg, spoll=False):
                 await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
-            poster = pic.replace('.jpg', "._V1_UX360.jpg") 
+            poster = pic.replace('.jpg', "https://graph.org/file/9f0d9fc72d0931be251d1.jpg") 
             hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await m.delete()
             try:
